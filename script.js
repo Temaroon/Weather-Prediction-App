@@ -46,7 +46,7 @@ async function getWeatherData(cityValue) {
   } catch (error) {
     weatherDataEl.querySelector(".icon").innerHTML = '';
     weatherDataEl.querySelector(".temperature").textContent = '';
-    weatherDataEl.querySelector(".description").textContent = 'Error, city not found!';
+    weatherDataEl.querySelector(".description").textContent = 'Error, city not found! Try again!';
     weatherDataEl.querySelector(".details").innerHTML = '';
   }
 }
