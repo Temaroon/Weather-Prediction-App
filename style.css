@@ -119,6 +119,25 @@ form input[type="text"]:hover {
   cursor: none;
 }
 
+.learn-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learn-more a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.learn-more a:hover {
+  color: #ffffffb0;
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   form {
     flex-direction: column;
